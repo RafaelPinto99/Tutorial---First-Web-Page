@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <!--HEAD-->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Rafael Pinto" />
+    <meta name="description" content="Survey Form - FreeCodeCamp" />
+    <title>survey-form.freecodecamp.rocks</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <!-- BODY -->
+  <body>
+    <!-- BODY HEADER -->
+    <header>
+      <h1 id="title">freeCodeCamp Survey Form</h1>
+      <p id="description">
+        <i>Thank you for taking the time to help us improve the platform</i>
+      </p>
+    </header>
+
+    <!-- BODY MAIN -->
+    <main>
+      <!-- FORM -->
+      <form action="freecodecamp.org" id="survey-form">
+        <fieldset>
+          <!-- FORM NAME -->
+
+          <p>
+            <label for="name" id="name-label">Name</label>
+
+            <br />
+
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Enter your name"
+              required
+            />
+          </p>
+
+          <!-- FORM EMAIL -->
+          <p>
+            <label for="email" id="email-label">Email</label>
+
+            <br />
+
+            <input
+              type="email"
+              name="email"
+              id="email"
+              placeholder="Enter your Email"
+              autocomplete="on"
+              required
+            />
+          </p>
+
+          <!-- FORM AGE -->
+          <p>
+            <label for="number" id="number-label">Age (optional)</label>
+
+            <br />
+
+            <input
+              type="number"
+              name="number"
+              id="number"
+              placeholder="Age"
+              min="10"
+              max="99"
+            />
+          </p>
+
+          <!-- FORM ROLE -->
+          <p>
+            <label for="dropdown1"
+              >Which option best describes your current role?</label
+            >
+
+            <br />
+
+            <select name="dropdown" id="dropdown1">
+              <option value="" hidden selected>Select current role</option>
+              <option value="student">Student</option>
+              <option value="fullTimeJob">Full Time Job</option>
+              <option value="fullTimeLearner">Full Time Learner</option>
+              <option value="preferNotToSay">Prefer not to say</option>
+              <option value="other">Other</option>
+            </select>
+          </p>
+
+          <!-- FORM RECOMMEND -->
+          <p id="recommendRadio">
+            Would you recommend freeCodeCamp to a friend?
+
+            <br />
+
+            <input
+              type="radio"
+              name="recommend"
+              id="definitely"
+              value="definitely"
+              checked
+            />
+            <label for="definitely">Definitely</label>
+
+            <br />
+
+            <input type="radio" name="recommend" id="maybe" value="maybe" />
+            <label for="maybe">Maybe</label>
+
+            <br />
+
+            <input type="radio" name="recommend" id="notSure" value="notSure" />
+            <label for="notSure">Not Sure</label>
+          </p>
+
+          <!-- FORM FEATURE -->
+          <p>
+            <label for="dropdown2"
+              >What is your favorite feature of freeCodeCamp?</label
+            >
+
+            <br />
+
+            <select name="dropdown" id="dropdown2">
+              <option value="" hidden selected>Select an option</option>
+              <option value="challenges">Challenges</option>
+              <option value="projects">Projects</option>
+              <option value="community">Community</option>
+              <option value="openSource">Open Source</option>
+            </select>
+          </p>
+
+          <!-- FORM IMPROVE -->
+          <p id="improveCheckbox">
+            What would you like to see improved? (Check all that apply)
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="frontend"
+              value="frontend"
+            />
+            <label for="frontend">Front-end Projects</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="backend"
+              value="backend"
+            />
+            <label for="backend">Back-end Procjets</label>
+
+            <br />
+
+            <input type="checkbox" name="survey-form" id="data" value="data" />
+            <label for="data">Data Visualization</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="challenge"
+              value="challenge"
+            />
+            <label for="challenge">Challenges</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="openSourceCommunity"
+              value="openSourceCommunity"
+            />
+            <label for="openSourceCommunity">Open Source Community</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="gitter"
+              value="gitter"
+            />
+            <label for="gitter">Gitter help rooms</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="videos"
+              value="videos"
+            />
+            <label for="videos">Videos</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="cityMeetups"
+              value="cityMeetups"
+            />
+            <label for="cityMeetups">City Meetups</label>
+
+            <br />
+
+            <input type="checkbox" name="survey-form" id="wiki" value="wiki" />
+            <label for="wiki">Wiki</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="forum"
+              value="forum"
+            />
+            <label for="forum">Forum</label>
+
+            <br />
+
+            <input
+              type="checkbox"
+              name="survey-form"
+              id="courses"
+              value="courses"
+            />
+            <label for="courses">Additional Courses</label>
+          </p>
+
+          <!-- FORM MESSAGE -->
+          <p id="textarea">
+            <span id="comments">Any comments or suggestions?</span>
+
+            <br />
+
+            <textarea
+              name="survey-form"
+              id="message"
+              cols="30"
+              rows="10"
+              placeholder="Place your comment here..."
+            ></textarea>
+          </p>
+
+          <!-- FORM SUBMIT -->
+          <button type="submit" name="survey-form" id="submit">Submit</button>
+        </fieldset>
+      </form>
+    </main>
+  </body>
+</html>

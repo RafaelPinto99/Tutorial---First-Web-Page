@@ -1,0 +1,62 @@
+html {
+    font-size: 22px;
+    background-color: rgba(0, 0, 0, 0.7);
+    background: url(resources/startup-593341_1280.jpg);
+    background-size: cover;
+    background-attachment:  fixed;
+    padding: none;
+    font-family: sans-serif;
+}
+
+#title,
+#description {
+    text-align: center;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    display: block;
+}
+
+main{
+    background-color: hsl(173, 70%, 35%, 0.7);
+    border-radius: 5px;
+}
+
+fieldset{
+    border: none;
+}
+
+label{
+    margin-left: 20px;
+}
+
+#name, #email, #number, #dropdown1, #dropdown2, #message, #submit{
+    display: block;
+    margin: 0 auto;
+    width: 95%;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#recommendRadio, #improveCheckbox{
+    margin-left: 20px;
+}
+
+#comments{
+    margin-left: 20px;
+}
+
+#message{
+    width: 95%;
+    padding: 0;
+}
+
+#submit{
+    border: 0;
+    background-color: rgb(3, 226, 33);
+}
