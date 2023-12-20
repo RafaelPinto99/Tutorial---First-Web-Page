@@ -1,2 +1,3 @@
 # Tutorial---First-Web-Page
-Web page about a Tacos Shop
+
+This project contains multiple simple web pages.
