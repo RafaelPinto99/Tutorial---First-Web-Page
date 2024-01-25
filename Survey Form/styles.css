@@ -21,7 +21,7 @@ body {
 }
 
 main{
-    background-color: hsl(173, 70%, 35%, 0.7);
+    background-color: #C5C392b3;
     border-radius: 5px;
 }
 
@@ -58,5 +58,5 @@ label{
 
 #submit{
     border: 0;
-    background-color: rgb(3, 226, 33);
+    background-color: hsl(51, 100%, 50%);
 }

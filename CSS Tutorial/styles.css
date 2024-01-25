@@ -1,0 +1,952 @@
+/* CHAPTER 2 SELECTORS*/
+
+/* html{
+    font-size: 22px;
+}
+
+body{
+    font-size: 22px;
+    
+}
+
+main{
+    font-family: monospace;
+}
+
+h1, h2{
+    color: blue;
+}
+
+p {
+    color: purple;
+}
+
+.highlight{
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.gray{
+    color: gray;
+}
+
+#second{
+    font-style: italic;
+} */
+
+/* CHAPTER 3 COLORS*/
+
+/* body{
+    font-family: Arial,
+            Helvetica,
+            sans-serif;
+        line-height: 1.5;
+        background-color: #C5C392;
+        color: rgb(0, 0, 0);
+}
+
+p{
+    color: #091625;
+} */
+
+/* CHAPTER 4 UNITS & SIZES */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+
+h1{
+    border: 2px dashed red;
+    width: 50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main{
+    background: skyblue;
+    font-size: 2rem;;
+}
+
+p{
+    font-size: 2rem;
+    width: 40ch;
+} */
+
+/* CHAPTER 5 BOX MODEL */
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    border: 10px double red;   
+    font-size: 1.5rem;
+    margin: 1.5em;
+    padding: 1.5em;
+    outline: 5px solid purple;
+    outline-offset: -20px;
+}
+
+.circle{
+    margin: 3rem auto;
+    background-color: gold;
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 50px;
+    outline: 2px solid red;
+    outline-offset: 0.25rem;
+} */
+
+/* CHAPTER 6 TYPOGRAPHY */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    color: purple;
+}
+
+input, button{
+    font: inherit;
+}
+
+p{
+    text-align: justify;
+    text-transform: lowercase;
+    text-indent: 1em;
+    line-height: 1.5;
+    letter-spacing: 0.1em;
+    word-spacing: 0.5em;
+    font-family: 'Roboto', sans-serif;;
+} */
+
+/* CHAPTER 7 STYLINGS LINKS */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+a{
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited{
+    color: hsl(207, 44%, 49%);
+}
+
+a:hover, a:focus{
+    color: hsl(207, 44%, 49%, 0.8);
+    background-color: gold;
+}
+
+a:active{
+    color: red;
+} */
+
+/* CHAPTER 8 LIST STYLES */
+
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+ol{
+    list-style-type: lower-alpha;
+   padding: 0;
+}
+
+ul{
+    list-style-type: square;
+    text-align: center;
+    list-style-position: inside;
+    color: #00f;
+    line-height: 1.6;
+    list-style-image: url('../resources/checkmark.png');
+    list-style: square url("../resources/checkmark.png")
+    inside;
+}
+
+ul li:nth-child(2){
+    color: red;
+}
+
+ul ::marker{
+color: red;
+font-family: fantasy;
+font-size: 1em;
+content: "Only 5$ >>";
+} */
+
+/* CHAPTER 10 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+body {
+    font-size: 2rem;
+    font-family: "Roboto", sans-serif;
+}
+
+p{
+    background-color: lightgray;
+}
+
+.opposite{
+    display: inline-block;
+    background-color: #333;
+    color: whitesmoke;
+    margin-top: 100px;
+    height: 200px;
+    padding: 4rem;
+}
+
+ul{
+    display: none;
+    list-style-type: none;
+    padding-left: 0.5rem;
+    text-align: right;
+    background-color: #000;
+    margin: 0;
+}
+
+li{
+    display: inline-block;
+    margin-inline: 0.5rem;
+}
+
+li a{
+    color: #fff;
+    text-decoration: none;
+}
+
+li a:hover, li a:focus{
+    text-decoration: underline;
+} */
+
+/* CHAPTER 11 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-size: 1.5rem;
+    font-family: "Roboto", sans-serif;
+}
+
+.block{
+    width: 30vw;
+    height: 30vw;
+    background-color: black;
+    color: #fff;
+    padding: 1rem;
+}
+
+.left{
+    float: left;
+    margin-left: 1rem;
+}
+.right{
+    float: right;
+    margin-left: 1rem;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: bisque;
+    border: 1px solid #000;
+    padding: 1rem;
+    overflow: auto;
+    display: flow-root;
+} */
+
+/* CHAPTER 12 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+}
+
+.columns{
+    column-count: 4;
+    column-width: 250px;
+    columns: 4 250px;
+    column-rule: 3px solid #333;
+    column-gap: 3rem;
+}
+
+.columns p{
+margin-top: 0;
+}
+
+.columns h2{
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    break-inside: avoid;
+    break-before: column;
+}
+
+.colmuns .quote{
+    margin-top: 2rem;
+    font-size: 3rem;
+    text-align: center;
+    color: #333;
+    column-span: all;
+}
+
+.nowrap{
+    white-space: nowrap;
+} */
+
+/* CHAPTER 13 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&family=Lobster&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+}
+
+.outer-container {
+    border: 3px dashed #000;
+    width: 75vw;
+    height: 85vh;
+    margin: 40px auto;
+    position: relative;
+}
+
+.inner-container {
+    border: 2px solid #00f;
+    width: 40vw;
+    height: 50vh;
+    margin: 200px auto;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    color: #fff;
+    padding: 1rem;
+}
+
+.absolute{
+    background-color: blue;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 0;
+}
+
+.relative{
+    background-color: red;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+
+.fixed{
+    background-color: green;
+    position: fixed;
+    top: 100px;
+}
+
+.sticky{
+    background-color: black;
+    position: sticky;
+    top: 0;
+} */
+
+/*  Remember, how to make things disappear! */
+
+/*//////////////////////////*/
+
+/* html{
+    scroll-behavior: smooth;
+}
+
+section{
+    height: 100vh;
+
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.green{
+    background-color: green;
+}
+
+header, footer{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+header{
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+
+footer{
+    background-color: black;
+    position: sticky;
+    bottom: 0;
+    font-size: 3rem;
+}
+
+a:visited{
+    columns: white;
+}
+
+.social{
+    background-color: royalblue;
+    color: white;
+    font-size: inherit;
+    padding: 1rem;
+    position: fixed;
+    top: 30%;
+    left: 0;
+    z-index: 1;
+} */
+
+/* CHAPTER 14 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    min-height: 400px;
+    margin-inline: auto;
+    border: 1px solid #000;
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    align-content: space-evenly;
+}
+
+.box {
+    min-width: 100px;
+    height: 100px;
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1 1 150px;
+}
+
+.box:nth-child(2){
+    flex: 2 2 150px;
+    order: -1;
+} */
+
+/* CHAPTER 15 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100vh;
+
+    display: grid;
+    grid-template-columns: repeat(9, 1fr);
+    grid-auto-rows: 50px auto px;
+    grid-template-areas: "hd hd hd hd hd hd hd hd hd" "mn mn mn mn mn mn mn sb sb" "ft ft ft ft ft ft ft ft ft";
+    column-gap: 0.5rem;
+}
+
+.el{
+    background-color: rebeccapurple;
+    color: #fff;
+    display: grid;
+    place-content: center;
+}
+
+.header{
+    grid-area: hd;
+}
+
+.sidebar{
+    grid-area: sb;
+    background-color: #00f;
+}
+
+.footer{
+    grid-area: ft;
+}
+
+.container{
+    grid-area: mn;
+    min-height: 400px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr, 2fr);
+    grid-auto-rows: minmax(150px, auto);
+    gap: 1rem;
+}
+
+.box {
+    background-color: #000;
+    color: #fff;
+    font-size: 2rem;
+    padding: 0.5rem;
+}
+
+.box:first-child{
+    background-color: #00f;
+    grid-column: 1 / 4;
+    grid-row: 1 / 3;
+
+    display: grid;
+    place-content: end center;
+
+}
+
+.box:nth-child(2){
+    background-color: purple;
+    grid-column: 1 / 5;
+    grid-row: 3 / 4;
+} */
+
+/* CHAPTER 16 */
+
+/* BEGIN RESET
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+
+    display: block;
+}
+END RESERT
+
+UTILITY CLASSES
+.nowrap{
+    white-space: nowrap;
+}
+
+.offscreen{
+    position: absolute;
+    left: -10000px;
+}
+
+END UTILITY CLASSES
+body {
+    font-family: "Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    background-image: url('../CSS\ Tutorial/images/bubbles.png'), linear-gradient(to left, steelblue, #fff);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center;
+    
+    background: repeat-y right center url('../CSS\ Tutorial/images/bubbles.png'), no-repeat linear-gradient(to left,
+        steelblue,
+        #fff);
+    background-size: 10%, auto;
+}
+
+.container{
+    background-color: rgb(251, 210, 156);
+    background-image: url('../CSS\ Tutorial/images/map-2176x1451.png');
+    background-repeat: repeat;
+    background-position: top right;
+    background-size: cover;
+}
+
+.hero{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+
+    background-color: hsla(0, 0%, 100%, 0.25);
+}
+
+.h1{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px black;
+    background-color: hsla(0, 0%, 0%, 0.4);
+    padding: 0.25rem;
+    border-radius: 10px;
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px solid black;
+    border-radius: 50%;
+}
+
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;
+}
+
+.example img{
+
+    width: 25%;
+    height: auto;
+}
+
+.clip{
+
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url('../CSS\ Tutorial/images/scenic-2200x1331.png');
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-color: text;
+    color: transparent;
+} */
+
+/* CHAPTER 17 */
+
+/* @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+|| RESET
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+|| GENERAL STYLES
+body {
+    font: 1.5rem "Nunito", sans-serif;
+    min-height: 100vh;
+
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #475569);
+    display: flex;
+    flex-direction: column;
+}
+
+header, nav, main, footer{
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header, footer{
+
+    position: sticky;
+    background-color: #1E293B;
+    color: whitesmoke;
+}
+
+header{
+    top: 0;
+}
+
+nav{
+    background-color: #fff;;
+    color: black;
+    padding: 0,5rem;
+    border-bottom: 2px solid black;
+}
+
+main{
+    flex-grow: 1;
+}
+
+footer{
+    bottom: 0;
+}
+
+|| SMALL
+@media screen and (min-width: 576px){
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+    }
+
+    nav{
+        display: none;
+    }
+}
+
+|| MEDIUM
+@media screen and (min-width: 768px){
+    body{
+        background-color: gold;
+        background-image: radial-gradient(whitesmoke, gold);
+    }
+}
+
+|| LARGE
+@media screen and (min-width: 992px){
+    body{
+        background-color: firebrick;
+        background-image: radial-gradient(whitesmoke, firebrick);
+    }
+}
+
+|| XL
+@media screen and (min-width: 1200px){
+    body{
+        background-color: rebeccapurple;
+        background-image: radial-gradient(whitesmoke, rebeccapurple);
+    }
+}
+
+|| MOBILE DEVICE LANDSCAPE
+@media screen and (max-height: 425px) and (min-aspect-ratio: 7/4){
+    body{
+        background-color: dodgerblue;
+        background-image: radial-gradient(whitesmoke, dodgerblue);
+    }
+
+    h1, h2{
+        font-size: 1.5rem;
+    }
+
+    nav{
+        display: none;
+    }
+} */
+
+/* CHAPTER 21 */
+
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* || RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || VARIABLES */
+:root {
+    /* FONT */
+    --FF: "Nunito", sans-serif;
+    --FS: clamp(1.75rem, 3vh, 2.25rem);
+    --FS-SMALL: clamp(1.25rem, 2vh, 1.5rem);
+    --FS-XL: 3rem;
+
+    /* COLOR */
+    --BGCOLOR: #475569;
+    --ALT-BGCOLOR: #1E293B;
+    --RADIAL-COLOR: whitesmoke;
+    --LIGHT-COLOR: whitesmoke;
+    --DARK-COLOR: #000;
+
+    /* SQUARE */
+    --SQUARE-BGCOLOR: papayawhip;
+    --SQUARE-SIZE: max(150px, 20vw);
+
+    /* GENERAL */
+    --PADDING: 0.5em;
+    --SHADOWS: 0 6px 5px -5px var(--DARK-COLOR);
+    --BORDERS: 2px solid var(--DARK-COLOR);
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --BGCOLOR: #000;
+        --ALT-BGCOLOR: #333;
+        --RADIAL-COLOR: rgb(217, 217, 217);
+        --SQUARE-BGCOLOR: rgb(202, 174, 202);
+    }
+}
+
+/* || GENERAL STYLES */
+body {
+    font: var(--FS) var(--FF);
+    min-height: 100vh;
+
+    background-color: var(--BGCOLOR);
+    background-image: radial-gradient(var(--RADIAL-COLOR), var(--BGCOLOR));
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+nav,
+footer {
+    display: grid;
+    place-content: center;
+    grid-template-columns: 100%;
+    text-align: center;
+}
+
+header,
+footer {
+    position: sticky;
+    background-color: var(--ALT-BGCOLOR);
+    color: var(--LIGHT-COLOR);
+}
+
+header {
+    top: 0;
+}
+
+nav {
+    background-color: var(--LIGHT-COLOR);
+    color: var(--DARK-COLOR);
+    border-bottom: var(--BORDERS);
+    box-shadow: var(--SHADOWS);
+}
+
+main {
+    flex-grow: 1;
+    padding: var(--PADDING);
+    display: grid;
+    grid-template-columns: repeat(4, minmax(100px, 300px));
+    gap: min(2vw, 20px);
+    /* display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start; */
+}
+
+main section{
+    flex-grow: 1;
+    padding: var(--PADDING);
+}
+
+main aside{
+    background-color: hsla(0, 0%, 0%, 0.8);
+    color: var(--LIGHT-COLOR);
+    font-style: var(--FS-SMALL);
+    font-style: italic;
+    padding: var(--PADDING);
+}
+
+.content{
+    margin-top: 20px;
+}
+
+.tooltip{
+    border-bottom: 1px dashed orange;
+    position: relative;
+}
+
+.tooltip:hover::before{
+    content: attr(data-tooltip);
+    position: absolute;
+    top: -20px;
+    white-space: nowrap;
+    background-color: var(--DARK-COLOR);
+    padding: var(--PADDING);
+    border-radius: 15px;
+}
+
+footer {
+    bottom: 0;
+}
+
+a:link{
+    color: firebrick;
+}
+
+a:hover, a:focus{
+    filter: brightness(150%);
+    /* filter: hue-rotate(180deg); */
+}
+
+/* || FEATURES */
+
+.square--highlight {
+    --SQUARE-BGCOLOR: cornflowerblue;
+}
+
+.square {
+    background-color: var(--SQUARE-BGCOLOR);
+/*     width: var(--SQUARE-SIZE);
+    height: var(--SQUARE-SIZE); */
+    border: var(--BORDERS);
+    border-radius: 15px;
+    display: grid;
+    place-content: center;
+    font-size: var(--FS-XL);
+    box-shadow: var(--SHADOWS);
+}
+
+@media screen and (min-width: 576px){
+    main{
+        flex-flow: row nowrap;
+        justify-content: space-between;
+    }
+
+    main section{
+        width: calc(70% - 5px);
+    }
+
+    main aside{
+        width: calc(30%- 5px);
+    }
+}

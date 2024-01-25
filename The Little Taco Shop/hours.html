@@ -4,6 +4,7 @@
   <!-- HEAD -->
   <head>
     <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="author" content="Rafael Pinto" />
     <meta name="description" content="Store Hours for The Little Taco Shop" />
     <title>LTS Hours</title>
@@ -12,41 +13,44 @@
       href="resources/favicon.ico"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="main.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="main.js" defer></script>
   </head>
 
   <!-- BODY -->
   <body>
     <!-- BODY HEADER -->
-    <header>
-      <h1>Little Taco Shop Hours</h1>
+    <header class="header">
+      <h1 class="header__h1">Little Taco Shop</h1>
       <!-- NAVIGATION AREA -->
-      <nav aria-label="Final navigation">
-        <ul>
+      <nav class="header__nav" aria-label="Final navigation">
+        <ul class="header__ul">
           <li><a href="index.html">Home</a></li>
-          <li><a href="index.html#LTS">About LTS</a></li>
-          <li><a href="index.html#menu">Our Menu</a></li>
-          <li><a href="contact.html">Contact Us</a></li>
+          <li><a href="index.html#menu">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
+    </header>
+
+    <section class="hero">
       <!--IMG TACOS TRAY-->
       <figure>
         <img
-          src="resources/tacos_tray_400x267.png"
+          src="resources/tacos_tray_1000x667.png"
           alt="Tacos tray"
           title="Tacos tray"
-          width="400"
-          height="267"
+          width="1000"
+          height="667"
         />
-        <figcaption>A Tray of Tasty Tacos</figcaption>
+        <figcaption class="offscreen">A Tray of Tasty Tacos</figcaption>
       </figure>
-    </header>
-
-    <hr />
+    </section>
 
     <!-- BODY MAIN -->
-    <main>
-      <article>
+    <main class="main">
+      <article class="main__article">
+        <h2>Hours</h2>
         <p>We are open 7 days a week!</p>
         <dl>
           <dt>Shunday-Thursday</dt>
@@ -54,20 +58,15 @@
           <dt>Friday-Saturday</dt>
           <dd>11am-11pm</dd>
         </dl>
-
-        <br />
-
-        <p>
-          <a href="#">Back to Top</a>
-        </p>
       </article>
     </main>
 
-    <hr />
-
     <!-- BODY FOOTER -->
-    <footer>
-      <p>Copyright &copy; The Little Taco Shop</p>
+    <footer class="footer">
+      <p>
+        <span class="nowrap">Copyright &copy; <time id="year"></time> </span>
+        <span class="nowrap">Little Taco Shop</span>
+      </p>
     </footer>
   </body>
 </html>
